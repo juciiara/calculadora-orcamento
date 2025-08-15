@@ -1,12 +1,21 @@
 # Calculadora de Orçamento Pessoal
 
+# 📊 Calculadora de Orçamento
+
+![Preview do Projeto](preview.png)
+
+
 [![GitHub repo size](https://img.shields.io/github/repo-size/juciiara/calculadora-orcamento)](https://github.com/juciiara/calculadora-orcamento)
 [![GitHub stars](https://img.shields.io/github/stars/juciiara/calculadora-orcamento?style=social)](https://github.com/juciiara/calculadora-orcamento)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+![Preview do Projeto](preview.png)
+
+---
+
 ## 💻 Sobre o Projeto
 Este é um projeto simples de **Calculadora de Orçamento Pessoal**, desenvolvido utilizando **React**.  
-Permite ao usuário registrar suas despesas, visualizar um resumo mensal e acompanhar o total gasto.  
+Permite ao usuário registrar suas despesas, visualizar um resumo e acompanhar o total gasto.  
 Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamentais de front-end.
 
 ---
@@ -20,34 +29,32 @@ Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamen
 ---
 
 ## 🎯 Funcionalidades
-- Adicionar despesas com descrição, valor e categoria.  
-- Visualizar lista de despesas adicionadas.  
-- Visualizar o total gasto.  
+- Adicionar despesas com **descrição**, **valor** e **categoria**.  
+- Exibir lista de despesas adicionadas.  
+- Cálculo automático do total gasto.  
 - Remover despesas individualmente.  
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 
-1. Clone este repositório:
+1. **Clone este repositório**
 ```bash
 git clone https://github.com/juciiara/calculadora-orcamento.git
 
-
-1-Entre na pasta do projeto:
+1-Entre na pasta do projeto
 cd calculadora-orcamento
 
-2-Instale as dependências:
+2-Instale as dependências
 npm install
 
-3-Inicie o servidor de desenvolvimento:
+3-Inicie o servidor de desenvolvimento
 npm start
 
-4-Abra o navegador e acesse:
+4-Abra no navegador
 http://localhost:3000
 
-Estrutura do Projeto
-
+📂 Estrutura do Projeto
 calculadora-orcamento/
 ├─ public/
 ├─ src/
@@ -62,10 +69,9 @@ calculadora-orcamento/
 ├─ package.json
 └─ README.md
 
-Contato
+📬 Contato
 
 GitHub: juciiara
 
-Licença
-
-Este projeto está licenciado sob a licença MIT.
+📜 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.

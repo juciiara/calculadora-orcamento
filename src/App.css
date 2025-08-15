@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Fundo da tela */
+.background {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 20px;
+}
+
+/* Caixa da calculadora */
+.app {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95em;
+}
+
+button {
+  background: #2575fc;
   color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background: #1a5fd0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.erro {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Box do total */
+.total-box {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  margin: 15px 0;
+}
+
+/* Lista de despesas */
+.lista-despesas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-despesas li {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.lista-despesas .info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.lista-despesas small {
+  color: gray;
+}
+
+.lista-despesas button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: red;
+  padding: 4px 8px;
+  font-size: 0.8em;
+}
+
+.lista-despesas button:hover {
+  background: darkred;
 }
