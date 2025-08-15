@@ -64,9 +64,9 @@ calculadora-orcamento/
 ├─ package.json
 └─ README.md
 
-📬 Contato
+## 📬 Contato
+GitHub: [Meu GitHub](https://github.com/juciiara)
 
-GitHub: [juciiara](https://github.com/juciiara)
 
 📜 Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
