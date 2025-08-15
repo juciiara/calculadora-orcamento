@@ -66,7 +66,7 @@ calculadora-orcamento/
 
 ## 📬 Contato
 
-GitHub: [Meu GitHub](https://github.com/juciiara)
+[GitHub](https://github.com/juciiara)
 
 
 📜 Licença
