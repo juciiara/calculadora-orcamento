@@ -33,7 +33,7 @@ Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamen
 
 ## 🚀 Como Rodar o Projeto
 
- **Clone este repositório**
+**Clone este repositório**
 ```bash
 git clone https://github.com/juciiara/calculadora-orcamento.git
 
