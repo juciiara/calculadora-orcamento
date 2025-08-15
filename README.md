@@ -40,11 +40,11 @@ git clone https://github.com/juciiara/calculadora-orcamento.git
 1-Entre na pasta do projeto
 cd calculadora-orcamento
 
-2-Instale as dependências
-npm install
+2-Instale as dependências  
+- npm install
 
 3-Inicie o servidor de desenvolvimento
-npm start
+- npm start
 
 4-Abra no navegador
 http://localhost:3000
