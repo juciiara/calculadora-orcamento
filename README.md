@@ -1,15 +1,13 @@
-# Calculadora de Orçamento Pessoal
+ 
 
-# 📊 Calculadora de Orçamento
+# 📊 Calculadora de Orçamento Pessoal
 
 ![Preview do Projeto](preview.png)
-
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/juciiara/calculadora-orcamento)](https://github.com/juciiara/calculadora-orcamento)
 [![GitHub stars](https://img.shields.io/github/stars/juciiara/calculadora-orcamento?style=social)](https://github.com/juciiara/calculadora-orcamento)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-![Preview do Projeto](preview.png)
 
 ---
 
